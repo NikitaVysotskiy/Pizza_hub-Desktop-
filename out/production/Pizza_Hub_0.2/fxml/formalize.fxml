@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="334.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FormalizeController">
+   <children>
+      <Label layoutX="13.0" layoutY="12.0" text="Оформление заказа" />
+      <Label layoutX="14.0" layoutY="34.0" text="Заказ:" />
+      <ListView fx:id="listViewOrder" layoutX="14.0" layoutY="60.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="14.0" layoutY="295.0" mnemonicParsing="false" onAction="#onFormalizeClick" text="Оформить" />
+      <Button layoutX="95.0" layoutY="295.0" mnemonicParsing="false" onAction="#onCancelClick" text="Отмена" />
+      <Label fx:id="labelSum" layoutX="14.0" layoutY="269.0" prefHeight="17.0" prefWidth="200.0" text="Сумма:" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="16.0" />
+   </children>
+</AnchorPane>
